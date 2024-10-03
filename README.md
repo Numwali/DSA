@@ -15,4 +15,4 @@ This project offers a Python solution for efficient sparse matrix operations usi
 - Python 3.x
 
 ### AUTHOR
-Umwali Noella
+Noella Umwali
