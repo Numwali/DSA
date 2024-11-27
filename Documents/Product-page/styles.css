@@ -1,0 +1,131 @@
+/*general reset*/
+body {
+ margin:0;
+ font-family:Arial, Helvetica, sans-serif;
+ line-height: 1.6;
+ background-color:#f4f4f4;
+ color:#333;
+}
+
+/*Header*/
+#header {
+ background:white;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:fixed;
+ top:0;
+ width:100%;
+ z-index:1000;
+ border-bottom: 1px solid #ccc;
+}
+
+.logo {
+ display:flex;
+ align-items: center;
+}
+
+.logo img {
+ width:40px;
+ margin-right:10px;
+}
+
+nav-bar {
+ display:flex;
+ gap:15px;
+}
+
+.nav-link{
+ color:#ff9900;
+}
+
+/*Hero section*/
+#hero {
+ text-align:center;
+ padding:100px 20px 50px;
+ background: #e6e6e6;
+}
+
+#hero h2 {
+ font-size:24px;
+ margin-bottom:20px;
+}
+
+#form {
+ margin-top:20px;
+}
+
+#email {
+ padding:10px;
+ font-size:16px;
+ width:250px;
+}
+
+#submit {
+ background:ff9900;
+ color:white;
+ border:none;
+ padding:10px 20px;
+ font-size:16px;
+ cursor: pointer;
+}
+
+#submit:hover {
+ background: #e68a00;
+}
+
+/*features section*/
+#features {
+ display:flex;
+ justify-content: space-around;
+ padding: 50px 20px;
+ background: white;
+}
+
+.feature img {
+ width:50px;
+ margin-bottom:10px;
+}
+
+.feature h3{
+ margin-bottom: 10px;
+color:#ff9900
+}
+
+/*pricing section*/
+#pricing {
+ display:flex;
+justify-content: space-around;
+padding:50px 20px;
+}
+
+.pricing-card {
+ background: white;
+ padding:20px;
+ text-align: 20px;
+ text-align: center;
+ border: 1px solid #ccc;
+ border-radius:8px;
+ width:30%;
+}
+
+.pricing-card button {
+ background: #ff9900;
+ color:white;
+ border:none;
+padding:10px 15px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.pricing-card button:hover {
+ background: #e68a00;
+}
+
+/*footer*/
+footer {
+ text-align: center;
+ padding: 20px;
+ background: #333;
+ color:white;
+}
